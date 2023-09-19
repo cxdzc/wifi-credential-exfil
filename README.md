@@ -1,5 +1,6 @@
 > [!IMPORTANT]
 > The author and contributors claim no responsibility for unauthorized or unlawful utilization. This encompasses the use of the material, whether through forks or modifications undertaken by third parties. Users are strongly encouraged to exercise due diligence and assume full responsibility for their actions. The contents within this repository are provided solely for educational purposes.
+
 ‎ 
 ‎ 
 ![waker](https://github.com/cxdzc/network-payload/assets/110936008/cf69d62e-8b2a-4a6a-b20b-16d1d6923d53)
