@@ -23,5 +23,5 @@ There are many ways to prevent this hotload attack from occurring. A very quick,
 
 <sub>THANK YOU!</sub>
 
-# License
+# 📜 License
 The content and software in this GitHub repository are licensed under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE). Users are free to share and adapt the material covered by this license, subject to the following conditions: provide appropriate attribution, refrain from employing it for commercial purposes, and distribute any derivative works under the same licensing terms.
