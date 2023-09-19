@@ -8,6 +8,8 @@
 # 📦 Network Payload v1.0.0
 Obtain Wi-Fi names and passwords from a Microsoft Windows operating system computer. This can be accessed by leveraging the convenience of Wi-Fi profiles that are saved on Microsoft Windows operating systems using PowerShell. 
 
+<br>
+
 > [!NOTE]
 > The payload was designed for a Flipper Zero with the classic Rubber Ducky Scripting Language 1.0 to retrieve information using Discord webhooks, but may be used as a regular payload and webhook.
 
