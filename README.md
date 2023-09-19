@@ -11,7 +11,7 @@ Obtain Wi-Fi names and passwords from a Microsoft Windows operating system compu
 <br>
 
 > [!NOTE]
-> The payload was designed for a Flipper Zero with the classic Rubber Ducky Scripting Language 1.0 to retrieve information using Discord webhooks, but may be used as a regular payload and webhook.
+> The payload was designed for a Flipper Zero using the classic Rubber Ducky Scripting Language 1.0 to retrieve information through Discord webhooks. It can also be used as a regular payload with a webhook.
 
 # ⛔ Prevention
 There are many ways to prevent this hotload attack from occurring. A very quick, simple, and temporary way is by deleting "Managed Known Networks" in Settings and to refrain from saving your Wi-Fi passwords.
