@@ -3,7 +3,7 @@
 
 <br>
 
-![waker](https://github.com/cxdzc/network-payload/assets/110936008/cf69d62e-8b2a-4a6a-b20b-16d1d6923d53)
+![wifi](https://github.com/cxdzc/network-payload/assets/110936008/8a715fbe-17d6-4a3e-9678-a8f80b110244)
 
 # 📦 Network Payload v1.0.0
 Obtain Wi-Fi names and passwords from a Microsoft Windows operating system computer. This can be accessed by leveraging the convenience of Wi-Fi profiles that are saved on Microsoft Windows operating systems using PowerShell. The payload was designed with the classic Rubber Ducky Scripting Language 1.0 for a Flipper Zero.
