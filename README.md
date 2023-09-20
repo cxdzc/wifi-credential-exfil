@@ -5,7 +5,7 @@
 
 ![Some Weird Image](https://github.com/cxdzc/network-payload/assets/110936008/11c7bdde-e4b0-4cdf-9ccd-22e4b86f28ad)
 
-# 📦 Network Payload v1.0.0
+# 📦 Waker Network Payload v1.0.0
 Obtain Wi-Fi names and passwords from a Microsoft Windows operating system computer. This can be accessed by leveraging the convenience of Wi-Fi profiles that are saved on Microsoft Windows operating systems using PowerShell. 
 
 <br>
