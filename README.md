@@ -24,13 +24,6 @@ Obtain Wi-Fi names and passwords from a Microsoft Windows operating system compu
 # ⛔ Prevention
 There are many ways to prevent this hotload attack from occurring. A very quick, simple, and temporary way is by deleting "Managed Known Networks" in Settings and to refrain from saving your Wi-Fi passwords.
 
-# ❤ Contributors 
-<a href="https://github.com/cxdzc/network-payload/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=cxdzc/network-payload" />
-</a>
-
-<sub>THANK YOU!</sub>
-
 # 📜 License
 The content and software in this GitHub repository are licensed under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE). Users are free to share and adapt the material covered by this license, subject to the following conditions: provide appropriate attribution, refrain from employing it for commercial purposes, and distribute any derivative works under the same licensing terms.
 
